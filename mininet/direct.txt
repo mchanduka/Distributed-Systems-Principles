@@ -1,0 +1,123 @@
+Main: parse command line arguments
+Main: parse command line arguments
+DirectSubscriber constructor called
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+tcp://*:5556
+Registering the broker
+Publisher interested in publishing on these topics: ['location', 'humidity', 'weather', 'light', 'temperature', 'weather', 'airquality', 'pressure', 'altitude', 'sound']
+sending message location
+Get a REQ socket
+    zipcode  weather  humidity  ...  pressure  temperature            send_time
+0   zipcode  weather  humidity  ...  pressure  temperature  2022-03-22 22:38:42
+1     08820     Mild       dry  ...     1 APA           10  2022-03-22 22:38:42
+2     08821     Mild       dry  ...     2 APA           11  2022-03-22 22:38:42
+3     08822     Mild       dry  ...     3 APA           12  2022-03-22 22:38:42
+4     08823     Mild       dry  ...     4 APA           13  2022-03-22 22:38:42
+5     08824     Mild       dry  ...     5 APA           14  2022-03-22 22:38:42
+6     08825     Mild       dry  ...     6 APA           15  2022-03-22 22:38:42
+7     08826     Mild       dry  ...     7 APA           16  2022-03-22 22:38:42
+8     08827     Mild       dry  ...     8 APA           17  2022-03-22 22:38:42
+9     08828     Mild     Humid  ...    30 APA           20  2022-03-22 22:38:42
+10    08829     Mild       dry  ...    10 APA           19  2022-03-22 22:38:42
+11    08830     Mild       dry  ...    11 APA           20  2022-03-22 22:38:42
+12    08831     Mild       dry  ...    12 APA           21  2022-03-22 22:38:42
+13    08832     Mild       dry  ...    13 APA           22  2022-03-22 22:38:42
+14    08833     Mild       dry  ...    14 APA           23  2022-03-22 22:38:42
+15    08834     Mild       dry  ...    15 APA           24  2022-03-22 22:38:42
+16    08835     Mild       dry  ...    16 APA           25  2022-03-22 22:38:42
+17    08836     Mild       dry  ...    17 APA           26  2022-03-22 22:38:42
+18    08837     Mild       dry  ...    18 APA           27  2022-03-22 22:38:42
+19    08838     Mild       dry  ...    19 APA           28  2022-03-22 22:38:42
+20    08839     Mild       dry  ...    20 APA           29  2022-03-22 22:38:42
+21    08840     Mild       dry  ...    21 APA           30  2022-03-22 22:38:42
+22    08841     Mild       dry  ...    22 APA           31  2022-03-22 22:38:42
+23    08842     Mild       dry  ...    23 APA           32  2022-03-22 22:38:42
+24    08843     Mild     Humid  ...    24 APA           33  2022-03-22 22:38:42
+25    08844     Mild       dry  ...    25 APA           34  2022-03-22 22:38:42
+26    08845     Mild       dry  ...    26 APA           35  2022-03-22 22:38:42
+27    08846     Mild     Humid  ...    27 APA           36  2022-03-22 22:38:42
+28    08847     Mild       dry  ...    28 APA           37  2022-03-22 22:38:42
+29    08848     Mild       dry  ...    29 APA           38  2022-03-22 22:38:42
+30    08849     Mild     Humid  ...    30 APA           39  2022-03-22 22:38:42
+31    08850     Mild       dry  ...    31 APA           40  2022-03-22 22:38:42
+32    08851     Mild       dry  ...    32 APA           41  2022-03-22 22:38:42
+
+[33 rows x 8 columns]
+Main: parse command line arguments
+Namespace(disseminate='direct')
+DirectSubscriber constructor called
+tcp://127.0.1.1:5556
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Registering the broker
+Main: parse command line arguments
+Current libzmq version is 4.3.4
+Current  pyzmq version is 22.3.0
+Acquire the context object
+Acquire the poller object
+Get a REP socket for the server
+Binding the message passing server at tcp://*:5556
+register with the poller for incoming requests
+Running the event loop
+Wait for the next event
+Message arrived on our socket; so handling it
+handing incoming message:     zipcode  weather  ...            send_time        received_time
+0   zipcode  weather  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+1     08820     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+2     08821     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+3     08822     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+4     08823     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+5     08824     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+6     08825     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+7     08826     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+8     08827     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+9     08828     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+10    08829     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+11    08830     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+12    08831     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+13    08832     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+14    08833     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+15    08834     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+16    08835     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+17    08836     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+18    08837     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+19    08838     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+20    08839     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+21    08840     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+22    08841     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+23    08842     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+24    08843     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+25    08844     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+26    08845     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+27    08846     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+28    08847     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+29    08848     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+30    08849     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+31    08850     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+32    08851     Mild  ...  2022-03-22 22:38:42  2022-03-22 22:38:53
+
+[33 rows x 9 columns]
+Wait for the next event
